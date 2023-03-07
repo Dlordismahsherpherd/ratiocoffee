@@ -1,0 +1,37 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-2");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif;
+}
+.header {
+  height: 43px;
+  width: 100%;
+  background-color: #532742;
+  display: flex;
+  align-items: center;
+}
+.left-header {
+  margin-left: 70px;
+  cursor: pointer;
+}
+.right-header {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55%;
+  cursor: pointer;
+}
+.right-header div {
+  height: 28px;
+  width: 1px;
+  background-color: white;
+}
+.header p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
